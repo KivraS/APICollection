@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>APICollection</PackageId>
+    <Authors>Anestis Kivranoglou</Authors>
+    <Company />
+    <Product />
+    <Description>APICollection is a helper class for Filtering - Paging and Projecting your data via WebAPI query string parameters.</Description>
+    <Copyright>Copyright (c) .Anestis Kivranoglou</Copyright>
+    <NeutralLanguage>en-001</NeutralLanguage>
+    <AssemblyName>LeanStack</AssemblyName>
+    <RootNamespace>LeanStack</RootNamespace>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\APICollection.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
